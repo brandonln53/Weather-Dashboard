@@ -1,5 +1,5 @@
 # Weather-Dashboard
-## Homework 6 Unviversity of Denver Full-Stack Web Development Bootcamp
+## Homework 6: University of Denver Full-Stack Web Development Bootcamp
 
 This homework asks us to:
 
