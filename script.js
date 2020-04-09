@@ -24,7 +24,7 @@ $(document).ready(function(){
     function searchWeather(searchCity){
         $.ajax({
             type: "GET",
-            url: "http://api.openweathermap.org/data/2.5/weather?q=" + searchCity + "&appid=27e1ff91585923eba53dd5c136acca4e&units=imperial",
+            url: "https://api.openweathermap.org/data/2.5/weather?q=" + searchCity + "&appid=27e1ff91585923eba53dd5c136acca4e&units=imperial",
             dataType: "JSON",
             success: function(data){
                 if (history.indexOf(searchCity) === -1){
@@ -56,7 +56,7 @@ $(document).ready(function(){
     function getWeather(searchCity){
         $.ajax({
             type: "GET",
-            url: "http://api.openweathermap.org/data/2.5/forecast?q=" + searchCity + "&appid=27e1ff91585923eba53dd5c136acca4e&units=imperial",
+            url: "https://api.openweathermap.org/data/2.5/forecast?q=" + searchCity + "&appid=27e1ff91585923eba53dd5c136acca4e&units=imperial",
             dataType: "JSON",
             success: function(data){
                 $("#forecast").html("<h4>5-Day Forecast</h4>").append("<div class='row'>");
